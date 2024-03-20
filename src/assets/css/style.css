@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/a.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1 {
+    width: 30%;
+    height: 30vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+}
+.title1 {
+    font-size: 50px;
+}
+.line {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.narrow{
+    width: 70%;
+    height: 3px;
+    background: white;
+}
+.bold{
+    width: 30%;
+    height: 25px;
+    background: white;
+}
+.menu {
+    width: 500px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 60px;
+}
+.icons{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons i {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.icons i:hover{
+    background: #2C2A35;
+    transition: 0.5s;
+}
+.welcome{
+    width: 1000px;
+    height: 80vh;
+    background: #2C2A35;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.x{
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    color: white;
+    font-size: 40px;
+}
+.text2a{
+    width: 41%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+}
+.title2{
+    font-size: 35px;
+}
+.text2b{
+    width: 41%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    margin-top: 90px;
+}
+.team{
+    width: 1000px;
+    height: 90vh;
+    background: #2C2A35;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.text3{
+    width: 53%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+}
+.title3{
+    font-size: 35px;
+}
+.but3{
+    width: 175px;
+    height: 50px;
+    background: #494752;
+    color: white;
+    border: none;
+}
+.but3:hover{
+    background: #6D6A7A;
+    transition: 0.5s;
+}
+.img3{
+    width: 23%;
+    height: 60vh;
+    background: url("../img/team.jpg");
+    background-size: 100% 100%;
+}
+.work{
+    width: 1000px;
+    height: 90vh;
+    background: #2C2A35;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+    position: relative;
+}
+.text4{
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 80px;
+}
+.title4{
+    font-size: 35px;
+}
+.carousel{
+    width: 80%;
+    margin-top: 45vh;
+    left: 50px;
+}
+.contact{
+    width: 1000px;
+    height: 90vh;
+    background: #2C2A35;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.text5{
+    width: 75%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+}
+.title5{
+    font-size: 35px;
+}
+form {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+form input {
+    width: 47%;
+    height: 50px;
+    background: #494752;
+    border: none;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    background: #494752;
+    border: none;
+}
+.but5{
+    width: 175px;
+    height: 50px;
+    background: #006599;
+    color: white;
+    border: none;
+}
+.but5:hover{
+    background: #0077B3;
+    transition: 0.5s;
+}
